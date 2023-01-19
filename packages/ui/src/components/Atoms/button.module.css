@@ -1,0 +1,33 @@
+@value theme: 'theme.css';
+@value white, brandOrange, brandOrangeHover, brandGrey, brandLightGrey from theme;
+
+
+.buttonBase {
+  padding: 20px;
+  border: 0;
+  margin-right: 20px;
+  color: white;
+  cursor: "pointer";
+}
+
+@media screen and (min-width: 768px) {
+  .buttonBase{
+    padding: 12px;
+  }
+}
+
+.buttonPrimary{
+  background: brandOrange;
+}
+
+.buttonPrimary:hover{
+  background: brandOrangeHover;
+}
+
+.buttonSecondary{
+  background: brandGrey;
+}
+
+.buttonSecondary:hover{
+  background: brandLightGrey;
+}
