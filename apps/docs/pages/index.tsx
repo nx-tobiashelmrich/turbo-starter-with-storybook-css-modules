@@ -1,5 +1,5 @@
 import { Button } from "ui";
-import style from "ui/components/atoms/button/button.module.css";
+import style from "ui/src/components/Atoms/Button/button.module.css";
 
 export default function Docs() {
   return (
